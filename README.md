@@ -21,3 +21,24 @@ postgres    | 2019-12-27 08:54:29.344 UTC [1] LOG:  listening on Unix socket "/v
 postgres    | 2019-12-27 08:54:29.354 UTC [25] LOG:  database system was shut down at 2019-12-27 08:47:36 UTC
 postgres    | 2019-12-27 08:54:29.358 UTC [1] LOG:  database system is ready to accept connections
 ```
+- connect to mysql via terminal
+```
+sergiu@sergiu-ThinkPad-SDR:~$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 18
+Server version: 5.7.29-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database ims;
+Query OK, 1 row affected (0.00 sec)
+
+mysql>
+```
