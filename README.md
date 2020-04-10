@@ -42,3 +42,9 @@ Query OK, 1 row affected (0.00 sec)
 
 mysql>
 ```
+
+- Apache pulsar instalation modes
+```
+https://pulsar.apache.org/docs/en/standalone/
+docker run -d --restart unless-stopped -p 6650:6650 -p 8080:8080 apachepulsar/pulsar:2.5.0 bin/pulsar standalone
+```
