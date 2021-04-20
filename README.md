@@ -48,3 +48,10 @@ mysql>
 https://pulsar.apache.org/docs/en/standalone/
 docker run -d --restart unless-stopped -p 6650:6650 -p 8080:8080 apachepulsar/pulsar:2.5.0 bin/pulsar standalone
 ```
+
+- Linux useful articles/commands:
+```
+1. How to extend an LVM partition in Centos 7  https://artsysops.com/2020/06/26/how-to-extend-an-lvm-partition-in-centos-7/
+2. Run java app: nohup java -jar YOUR_JAVA_APP.jar &
+```
+
